@@ -1,0 +1,49 @@
+{
+    "preprocess_positive_patterns": 
+        [
+            "nomin",
+            "win",
+            "won"
+        ],
+    "preprocess_negative_patterns": 
+        [
+            "wish",
+            "will",
+            "want",
+            "not",
+            "should",
+            "could"
+        ],
+    "preprocess_remove_patterns":
+        [
+            "golden globes",
+            "goldenglobes",
+            "#",
+            "oscars?",
+            "@\\S*\\s?",
+            "\\brt\\b",
+            "http\\S*\\s?",
+            "'s"
+        ],
+    "similarity_post_remove_patterns":
+        [
+            
+        ],
+    "similarity_award_remove_patterns":
+        [
+            "best",
+            "award",
+            "performance",
+            "motion",
+            "drama",
+            "role",
+            "made",
+            "original"
+        ],
+    "similarity_award_synonyms":
+        [
+            ["picture", "film", "movie"],
+            ["television", "tv"],
+            ["series", "show"]
+        ]
+}
