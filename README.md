@@ -1,4 +1,4 @@
-# Event Interpreter (https://github.com/cadenhowell/event-interpreter)
+# Event Interpreter
 ## How to Run
 1) Add data2013.json and data2015.json into data folder
 2) Pip install requirements.txt into virtual environment
